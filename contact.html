@@ -6,26 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
-    <title>Home</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Contact Us</title>
 </head>
 
 <body>
-    <!-- bg-primary has priority to navbar-dark -->
     <nav class="navbar navbar-dark navbar-expand-sm  fixed-top">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand mr-auto" href="/index.html">
+            <a class="navbar-brand mr-auto" href="#">
                 <img src="https://fantoni.sadernama.com/wp-content/uploads/2019/03/full-logo.png" height="30" width="60">
             </a>
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active"><a class="nav-link" href="/index.html"><i class="fa fa-home fa-lg"></i>Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./aboutus.html"><i class="fa fa-info fa-lg"></i>About</a></li>
+                    <li class="nav-item "><a class="nav-link" href="/index.html"><i class="fa fa-home fa-lg"></i>Home</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="./aboutus.html"><i class="fa fa-info fa-lg"></i>About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-list fa-lg"></i>Menu</a></li>
                     <li class="nav-item"><a class="nav-link" href="/contact.html"><i class="fa fa-address-card fa-lg"></i>Contact</a></li>
                 </ul>
@@ -47,66 +46,97 @@
         </div>
     </header>
 
-    <div class="container">
-        <!-- align-items-center -   horizentally move center -->
-        <div class="row row-content align-items-center">
-            <div class="col-12 col-sm-4 order-sm-last col-md-3">
-                <h1>Hello Bootstrap! </h1>
-            </div>
-            <div class="col col-sm order-sm-first col-md">
-                <div class="media">
-                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="/img/images.png" >
-                    <div class="media-body"> 
-                        <h2 class="mt-0">
-                            Uthappazia 
-                            <span class="badge badge-danger">CUTE</span>
-                            <span class="badge badge-pill badge-secondary">%50 OFF</span>
-                        </h2>
-                        <p class="d-none d-sm-block">You can modify the text in the box to the left any way you like, and
-                            then click the "Show Page" button below the box to display the
-                            result here. Go ahead and do this as often and as long as you like.</p>
+    <body>
+        <div class="container">
+            <div class="row  row-content">
+                <div class="col-12 col-sm-6 col-md-6">
+                    <h1>Second row!</h1>
+                    <p>Address</p><br>
+                    <i class="fa fa-phone"></i> +98 93827268 <br>
+                    <i class="fa fa-fax"></i> +982 82767t87<br>
+                    <i class="fa fa-envelpe"></i> fantoniStore@gmail.com<br>
+                </div>
+                    <div class="col-12 col-sm-6 col-md-6">
+                        <p>Map of your location</p>
                     </div>
-                </div>                
-            </div>
-            <div class="col-12">
-                <p>You can also use this page to test your Javascript functions and local
-                    style declarations. Everything you do will be handled entirely by your own
-                    browser; nothing you type into the text box will be sent back to the
-                    server.</p>
-            </div>
-        </div>
-        <div class="row  row-content">
-            <div class="col-12 col-sm-4 col-md-3">
-                <h1>Second row!</h1>
-            </div>
-            <div class="col col-sm col-md">
-                <p>When you are satisfied with your page, you can select all text in the
-                    textarea and copy it to a new text file, with an extension of
-                    either <b>.htm</b> or <b>.html</b>, depending on your Operating System.
-                    This file can then be moved to your Web server.</p>
-            </div>
-        </div>
-        <div class="row  row-content">
-            <div class="col-12 col-sm-4 order-sm-first col-md-3">
-                <h1>Third row!</h1>
-            </div>
-            <div class="col col-sm order-sm-last col-md">
-                <div class="media">
-                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="/img/images.jpg" >
-                    <div class="media-body">
-                        <h2 class="mt-0">The new product </h2>
-                        <p>You can also use this page to test your Javascript functions and local
-                            style declarations. Everything you do will be handled entirely by your own
-                            browser; nothing you type into the text box will be sent back to the
-                            server.</p>
+                <div class="col-12 col-sm-11 offset-sm-1">
+                    <div class="btn-group" role="group">
+                            <a role="button" class="btn btn-primary" href="#"><i class="fa fa-phone"></i> Call</a>
+                            <a role="button" class="btn btn-info" href="#"><i class="fa fa-skype"></i> Skype</a>
+                            <a role="button" class="btn btn-success" href="leila.orooji@gmail.com"><i class="fa fa-envelope">Email</i></a>
                     </div>
                 </div>
-                
+            </div>
+            <div class="row row-content">
+                <div class="col-12">
+                    <h3>Send Us your feedback</h3>
+                </div>
+                <div class="col-12 col-sm-9">
+                    <form >
+                        <div class="form-group row">
+                            <label for="firstname" class="col-md-2 col-form-label">First Name</label>
+                            <div class="col-md-10">
+                                <input type="text" class="form-control" name="firstname" id="firstname" placeholder="First Name">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="lastname" class="col-md-2 col-form-label">Last Name</label>
+                            <div class="col-md-10">
+                                <input type="text" class="form-control" name="lastname" id="lastname" placeholder="Last Name">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="telnum" class="col-12 col-md-2 col-form-label">Contact Tel.</label>
+                            <div class="col-5 col-md-3">
+                                <input type="tel" class="form-control" name="areacode" id="areacode" placeholder="Area Code">
+                            </div>
+                            <div class="col-7 col-md-7">
+                                <input type="tel" class="form-control" name="telnum" id="telnum" placeholder="Tell Number">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="email" class="col-md-2 col-form-label">Email</label>
+                            <div class="col-md-10">
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Email Address">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-md-6 offset-md-2">
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" name="approve" id="approve" value="">
+                                    <label for="approve" class="form-check-label">
+                                        <strong>May we contact you?</strong>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-md-3 offset-md-1">
+                                <select class="form-control">
+                                    <option>Tell</option>
+                                    <option>Email</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="feedback" class="col-md-2 col-form-label"> Your Feedback</label>
+                            <div class="col-md-10">
+                                <textarea class="form-control" name="feedback" id="feedback" row="7" placeholder="feedback"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="offset-md-2 col-md-10">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-12 col-sm">
+
+                </div>
             </div>
         </div>
+    </body>
 
-    </div>
-
+   
     <footer class="footer">
         <hr>
         <div class="container">
@@ -118,7 +148,7 @@
                         <li><a href="#">Home</a></li>
                         <li><a href="/aboutus.html">About</a></li>
                         <li><a href="#">Menu</a></li>
-                        <li><a href="/contact.html"></a>Contact</li>
+                        <li><a href="#"></a>Contact</li>
                     </ul>
                 </div>
                 <div class="col-7 col-sm-5">
@@ -153,6 +183,7 @@
 
     </footer>
 
+    
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
