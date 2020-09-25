@@ -1,0 +1,20 @@
+ was trying to run npm lite server and onchange for scss together as described in my course but instead got an error... Tried Running npm start with package.json containing script as -
+
+"scripts": {
+    "start": "npm run watch:all",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server",
+    "scss": "node-sass -o css/ css/",
+    "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
+    "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\""
+  }
+
+go to the file:
+
+node_modules/parallelshell/index.js:105
+Then change this line:
+
+cwd: process.versions.node < '8.0.0' ? process.cwd : process.cwd(),
+To this:
+
+cwd: parseInt(process.versions.node) < 8 ? process.cwd : process.cwd(),
